@@ -16,6 +16,6 @@ def line(line)
      line.each_with_index do |person, i|
        results << " #{i+1}. #{person} "
      end
-     puts results.chomp
+     puts results.strip
    end
 end
