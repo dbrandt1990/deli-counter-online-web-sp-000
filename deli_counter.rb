@@ -14,7 +14,7 @@ def line(line)
    else 
      results = "The line is currently:"
      line.each_with_index do |person, i|
-       results << " #{i+1}. #{person} "
+       results << " #{i+1}. #{person}"
      end
      puts results.strip
    end
