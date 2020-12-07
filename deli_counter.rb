@@ -7,7 +7,7 @@ end
 def take_a_number(line, name)
   line << name
   place = line.index(name) + 1
-  puts ""
+  puts "Welcome, #{name}. You are number #{place} in line."
 end
 
 def line(line)
