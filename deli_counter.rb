@@ -5,6 +5,7 @@ def now_serving(line)
 end
 
 def take_a_number(line, name)
+  line << name
   
 end
 
